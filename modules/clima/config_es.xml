@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>clima</name>
+    <displayName><![CDATA[Clima en el navbar]]></displayName>
+    <version><![CDATA[1.0.0]]></version>
+    <description><![CDATA[Este modulo da los datos de ubicaci&oacute;n, clima, ciudad a trav&eacute;s de la ip]]></description>
+    <author><![CDATA[artulance.com]]></author>
+    <tab><![CDATA[Blocks]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>
