@@ -6,7 +6,7 @@
 .product-quantity.row.align-items-center.no-gutters {
     display: grid;
     justify-items: start;
-    grid-template-columns: 0.23fr 2fr;
+    grid-template-columns: 0.35fr 2fr;
     grid-template-rows: 1fr 1fr;
 }
 
@@ -27,16 +27,16 @@
 
 .div_stock {
     display: grid;
-    grid-template-columns: 0.4fr 2fr;
+    grid-template-columns: 0.5fr 2fr;
     font-weight: 700;
 }
 
 .p_stock {
     background-color: #d6eed1;
     color: #458057;
-    font-family: Montserrat,sans-serif;
+    font-family: Montserrat;
     padding: 1%;
-    padding-left: 2%;
+    padding-left: 4%;
 }
 
 .p_stockout {
@@ -109,7 +109,16 @@
 
 .logo {
     height: 2.5rem;
-    max-width: 100%;
+    margin: 5% auto;
+}
+.col-lg-4{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.col-lg-8 
+{
+    flex: 0 0 50%;
+    max-width: 50%;
 }
 
 .header-top {
@@ -194,6 +203,7 @@ hr {
 }
 
 .h1 {
+    font-size: 1.429rem;
     font-weight: 700;
     text-transform: capitalize;
 }
@@ -316,7 +326,7 @@ p{
     color: #ff6000;
     font-size: 50px;
     font-weight: bold;
-    margin-top :-1%;
+    margin-top :-3%;
     font-family: Montserrat,sans-serif;
 
 

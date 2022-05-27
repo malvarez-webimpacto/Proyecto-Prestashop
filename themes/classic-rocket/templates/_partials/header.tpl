@@ -21,7 +21,7 @@ wish to upgrade PrestaShop to newer * versions in the future. If you wish to cus
       <i class="material-icons d-inline">&#xE5D2;</i>
     </button>
         <a href="{$urls.base_url}" class="header__logo header-top__col">
-            <img class="logo img-fluid" src="{$shop.logo}" alt="{$shop.name}" />
+            <img class="logo" src="{$shop.logo}" alt="{$shop.name}" />
         </a>
         <div class="header__search">{hook h='displaySearch'}</div>
         <div class="header__right header-top__col">{hook h='displayTop'}</div>
